@@ -1,0 +1,241 @@
+!SESSION 2023-06-14 15:49:01.418 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/H:/sql/github-workspace/employee-details/ -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-06-14 15:49:02.355
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-06-14 15:49:02.358
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:49:04.730
+!MESSAGE 2023-06-14 15:49:04,723 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: H:\sql\Zip talend\TOS_BD-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:35.641
+!MESSAGE 2023-06-14 15:49:35,640 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:56.533
+!MESSAGE 2023-06-14 15:49:56,532 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:56.752
+!MESSAGE 2023-06-14 15:49:56,751 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:56.903
+!MESSAGE 2023-06-14 15:49:56,902 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:56.909
+!MESSAGE 2023-06-14 15:49:56,908 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:56.975
+!MESSAGE 2023-06-14 15:49:56,974 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.033
+!MESSAGE 2023-06-14 15:49:57,032 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.162
+!MESSAGE 2023-06-14 15:49:57,162 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.171
+!MESSAGE 2023-06-14 15:49:57,170 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.315
+!MESSAGE 2023-06-14 15:49:57,315 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.328
+!MESSAGE 2023-06-14 15:49:57,328 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.334
+!MESSAGE 2023-06-14 15:49:57,334 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.385
+!MESSAGE 2023-06-14 15:49:57,384 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.426
+!MESSAGE 2023-06-14 15:49:57,426 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.452
+!MESSAGE 2023-06-14 15:49:57,451 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.603
+!MESSAGE 2023-06-14 15:49:57,602 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.631
+!MESSAGE 2023-06-14 15:49:57,631 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:49:57.660
+!MESSAGE 2023-06-14 15:49:57,659 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:06.954
+!MESSAGE 2023-06-14 15:50:06,954 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /LOCAL_PROJECT_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:06.956
+!MESSAGE 2023-06-14 15:50:06,956 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /LOCAL_PROJECT_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:06.959
+!MESSAGE 2023-06-14 15:50:06,958 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /LOCAL_PROJECT_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:06.960
+!MESSAGE 2023-06-14 15:50:06,959 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /LOCAL_PROJECT_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:09.615
+!MESSAGE 2023-06-14 15:50:09,613 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - H:\sql\github-workspace\employee-details\LOCAL_PROJECT\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:09.617
+!MESSAGE 2023-06-14 15:50:09,616 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "H:\sql\Zip talend\TOS_BD-20200219_1130-V7.3.1\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:54.802
+!MESSAGE 2023-06-14 15:50:54,801 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - H:\sql\github-workspace\employee-details\LOCAL_PROJECT\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:50:54.803
+!MESSAGE 2023-06-14 15:50:54,802 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "H:\sql\Zip talend\TOS_BD-20200219_1130-V7.3.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:51:32.623
+!MESSAGE 2023-06-14 15:51:32,623 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Local_Project
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:51:34.510
+!MESSAGE 2023-06-14 15:51:34,509 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.854
+!MESSAGE 2023-06-14 15:51:34,853 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.859
+!MESSAGE 2023-06-14 15:51:34,859 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.879
+!MESSAGE 2023-06-14 15:51:34,878 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.886
+!MESSAGE 2023-06-14 15:51:34,886 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.891
+!MESSAGE 2023-06-14 15:51:34,890 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.899
+!MESSAGE 2023-06-14 15:51:34,898 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.905
+!MESSAGE 2023-06-14 15:51:34,904 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:34.944
+!MESSAGE 2023-06-14 15:51:34,943 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.079
+!MESSAGE 2023-06-14 15:51:35,078 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.120
+!MESSAGE 2023-06-14 15:51:35,120 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.206
+!MESSAGE 2023-06-14 15:51:35,205 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.217
+!MESSAGE 2023-06-14 15:51:35,216 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.239
+!MESSAGE 2023-06-14 15:51:35,238 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.247
+!MESSAGE 2023-06-14 15:51:35,246 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.269
+!MESSAGE 2023-06-14 15:51:35,269 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.277
+!MESSAGE 2023-06-14 15:51:35,276 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-06-14 15:51:35.285
+!MESSAGE 2023-06-14 15:51:35,284 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HDFS-LIB-CDH_5_4_LASTEST
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:52:37.619
+!MESSAGE 2023-06-14 15:52:37,617 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/LOCAL_PROJECT_ROUTINES: org.example.local_project.code:routines:7.3.1 with classifier  to /LOCAL_PROJECT_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:52:37.808
+!MESSAGE 2023-06-14 15:52:37,806 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /LOCAL_PROJECT_DEMO_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:52:37.809
+!MESSAGE 2023-06-14 15:52:37,808 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /LOCAL_PROJECT_DEMO_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:52:37.819
+!MESSAGE 2023-06-14 15:52:37,819 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /LOCAL_PROJECT_DEMO_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-14 15:52:37.820
+!MESSAGE 2023-06-14 15:52:37,820 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /LOCAL_PROJECT_DEMO_0.1/src/test/resources
+
